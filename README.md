@@ -28,7 +28,7 @@ venv\Scripts\activate     # On Windows
 ```
 Install required packages:
 ```bash
-Install required packages:
+pip install -r requirements.txt
 ```
 
 ## 3. Install Additional Tools
