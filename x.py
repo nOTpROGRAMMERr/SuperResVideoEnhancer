@@ -17,7 +17,7 @@ def load_models(model_choice):
     models = {}
     if 'gfpgan' in model_choice.lower():
         models['gfpgan'] = GFPGANer(
-            model_path='/content/experiments/pretrained_models/GFPGANv1.3.pth',
+            model_path='experiments/pretrained_models/GFPGANv1.3.pth',
             upscale=2,
             arch='clean',
             channel_multiplier=2,
@@ -48,7 +48,7 @@ def enhance_video(args):
         # Run the CodeFormer script for enhancement
         command = [
             'python',
-            '/content/CodeFormer/inference_codeformer.py',
+            'CodeFormer/inference_codeformer.py',
             '--bg_upsampler', 'realesrgan',
             '--face_upsample',
             '-w', '1.0',
