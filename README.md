@@ -67,7 +67,7 @@ python x.py --superres [GFPGAN/CodeFormer] -iv <input_video_path> -ia <input_aud
 ```
 ## Example:
 ```bash
-python x.py --superres GFPGAN -iv input.mp4 -ia input.mp3 -o output.mp4
+python x.py --superres GFPGAN -iv  Inputs/input.mp4 -ia Inputs/input.mp3 -o output.mp4
 ```
 
 
