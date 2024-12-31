@@ -14,8 +14,10 @@ A Python-based tool for enhancing video quality using **GFPGAN** and **CodeForme
 
 ### 1. Clone the Repository
 ```bash
-https://github.com/nOTpROGRAMMERr/SuperResVideoEnhancer.git
-cd SuperResVideoEnhancer
+git clone https://github.com/nOTpROGRAMMERr/SuperResVideoEnhancer.git  # clone only once 
+```
+```bash
+cd SuperResVideoEnhancer     #make sure your in this directory itself
 ```
 
 ## 2. Install Dependencies
